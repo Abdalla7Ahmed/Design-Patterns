@@ -1,0 +1,39 @@
+Structural Design Patterns
+
+Structural design patterns focus on organizing code in a way that makes it scalable, 
+maintainable, and efficient. They help structure relationships between classes and objects. 
+1. Adapter Pattern (Converter)
+
+🔹 Concept: Allows two incompatible interfaces to work together by acting as a bridge.
+🔹 Use case: When you need to integrate a third-party library or legacy code into your system without modifying either.
+
+2. Bridge Pattern (Abstraction-Implementation Separation)
+
+🔹 Concept: Separates abstraction (high-level logic) from implementation (low-level logic) to allow independent modifications.
+🔹 Use case: When you have multiple class variations and want to decouple their dependencies.
+
+3. Composite Pattern (Hierarchy Management)
+
+🔹 Concept: Treats individual objects and groups of objects uniformly, making it easier to manage hierarchical structures.
+🔹 Use case: When working with tree structures like file systems, menus, or organizational hierarchies.
+
+4. Decorator Pattern (Extending Functionality Dynamically)
+
+🔹 Concept: Allows adding new functionality to an object without modifying its original code by wrapping it inside another class.
+🔹 Use case: When you need to extend an object’s behavior without modifying its class.
+
+5. Facade Pattern (Simplified Interface for Complex Systems)
+ 
+🔹 Concept: Provides a high-level, simpler interface to a complex system, making it easier to use.
+🔹 Use case: When dealing with large systems with multiple APIs, and you want to expose a simple interface.
+
+
+6. Flyweight Pattern (Memory Optimization by Object Sharing)
+
+🔹 Concept: Reduces memory usage by reusing shared objects instead of creating new instances.
+🔹 Use case: When you have a large number of similar objects and need to reduce memory consumption.
+
+7. Proxy Pattern (Intermediary for Controlled Access)
+
+🔹 Concept: Provides a placeholder or surrogate to control access to an object, improving security, caching, or performance.
+🔹 Use case: When you need access control, logging, caching, or request filtering before reaching the main object.

@@ -1,0 +1,7 @@
+name: Document Converter
+version: "1.0"
+features:
+  - Text Parsing
+  - JSON Parsing
+  - XML Parsing
+author: User

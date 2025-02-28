@@ -1,0 +1,12 @@
+Parsed XML File:
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <name>Document Converter</name>
+    <version>1.0</version>
+    <features>
+        <feature>Text Parsing</feature>
+        <feature>JSON Parsing</feature>
+        <feature>XML Parsing</feature>
+    </features>
+    <author>User</author>
+</project>
