@@ -45,11 +45,11 @@ private:
     std::unique_ptr<EntertainmentSystem> m_entertainmentsystem;
 
 public:
-    // SmartHomeFacade()
-    //     : m_light(std::make_unique<Light>()),
-    //       m_airconditioner(std::make_unique<AirConditioner>()),
-    //       m_securitysystem(std::make_unique<SecuritySystem>()),
-    //       m_entertainmentsystem(std::make_unique<EntertainmentSystem>()) {}
+    SmartHomeFacade()
+         : m_light(std::make_unique<Light>()),
+           m_airconditioner(std::make_unique<AirConditioner>()),
+           m_securitysystem(std::make_unique<SecuritySystem>()),
+           m_entertainmentsystem(std::make_unique<EntertainmentSystem>()) {}
     void leaveHome()
     {
 
@@ -78,7 +78,7 @@ public:
 int main()
 {
     std::unique_ptr<SmartHomeFacade> home = std::make_unique<SmartHomeFacade>();
-    int choice = 1;
+    int choice ;
 
     do
     {
@@ -87,7 +87,7 @@ int main()
         std::cout << "2. Leave Home\n";
         std::cout << "3. Exit\n";
         std::cout << "Enter your choice: ";
-        // std::cin >> choice;
+        std::cin >> choice;
 
         switch (choice)
         {
